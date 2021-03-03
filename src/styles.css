@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app_wrapr {
+  padding: 50px 0;
+}
+
+.ui.input {
+  width: 100%;
+}
+
+.emoji_list {
+  display: block;
+  padding: 0;
+  margin: 25px 0;
+  height: 550px;
+  overflow-y: auto;
+}
+
+.emoji_list > li {
+  display: block;
+  padding: 12px 10px;
+  background: #efefef;
+  margin: 0 0 6px 0;
+  font-size: 18px;
+}
+
+.emoji_list > li > span {
+  margin-left: 10px;
+}
